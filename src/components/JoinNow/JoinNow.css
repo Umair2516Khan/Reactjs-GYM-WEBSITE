@@ -1,0 +1,52 @@
+.join{
+    display: flex;
+    padding: 2rem 2rem;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    flex: 1 1;
+}
+.first_line{
+    display: flex;
+    gap: 1rem;
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.second_line{
+    display: flex;
+    gap: 1rem;
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+}
+.right{
+    display: flex;
+    flex: 1 1;
+    align-items: flex-end;
+}
+.input{
+    display: flex;
+    background-color: gray;
+    padding: 1rem 2rem;
+    width: fit-content;
+    height: 2rem;
+    gap: 2rem;
+}
+.input>button{
+    color: white;
+    background-color: var(--orange);
+}
+.input>input{
+    border: none;
+    outline: none;
+    width: fit-content;
+    background-color: transparent;
+    color: white;
+}
+.input>input::placeholder{
+    color: white;
+    width: fit-content;
+}

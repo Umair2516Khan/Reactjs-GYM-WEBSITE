@@ -1,0 +1,167 @@
+.hero{
+    display: flex;
+    justify-content: space-between;
+}
+.hero_left{
+    padding: 2rem;
+    padding-top: 1.5rem;
+    flex: 3;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+.hero_right{
+    flex: 1;
+    position: relative;
+    background-color: var(--orange);
+    z-index: 2;
+}
+.ad{
+margin-top: 4rem;
+background-color: #363b42;
+border-radius: 4rem;
+width: fit-content;
+padding: 20px 13px;
+text-transform: uppercase;
+color: white;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+position: relative;
+}
+.ad>span{
+    z-index: 2;
+}
+.ad>div{
+    position: absolute;
+    background-color: var(--orange);
+    width: 5.4rem;
+    height: 80%;
+    left: 8px;
+    border-radius: 3rem;
+}
+.hero_heading{
+    display: flex;
+    flex-direction:column;
+    gap: 1.5rem;
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: white;
+    text-overflow: inherit;
+    text-transform: uppercase;
+}
+.heading1{
+    display: flex;
+    gap: 1rem;
+}
+.heading2{
+    display: flex;
+    gap: 1rem;
+}
+.slogan{
+    font-size: 1rem;
+    font-weight: 200;
+    letter-spacing: 1px;
+    width: 80%;
+    color: white;
+}
+.stats{
+    display: flex;
+    gap: 2rem;
+}
+.stats>div{
+    display: flex;
+    flex-direction: column;
+}
+.stats>div>span:nth-of-type(1){
+    color: white;
+    font-size: 2rem;
+}
+.stats>div>span:nth-of-type(2){
+    color: var(--gray);
+    text-transform: uppercase;
+}
+.hero_buttons{
+    display: flex;
+    gap: 1rem;
+}
+.hero_buttons>:nth-child(1){
+    color: white;
+    background-color: var(--orange);
+    width: 8rem;
+}
+.hero_buttons>:nth-child(2){
+    background-color: transparent;
+    color: white;
+    border: 2px solid var(--orange);
+    width: 8rem;
+}
+.heart_rate{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--darkGrey);
+    color: white;
+    padding: 0.9rem;
+    gap: 1rem;
+    border: 1px solid transparent;
+    width: fit-content;
+    border-radius: 0.4rem;
+    position: absolute;
+    top: 7rem;
+    right: 4rem;
+}
+.heart_rate>img{
+    height: 29px;
+    width: 31px;
+}
+.heart_rate>span:nth-of-type(1){
+    color: var(--gray);
+}
+.heart_rate>span:nth-of-type(2){
+    color: white;
+    font-size: 1.5rem;
+}
+.hero_right>.btn{
+    position: absolute;
+    right: 3rem;
+    top: 2rem;
+}
+.hero_image{
+    position: absolute;
+    top: 4rem;
+    right: 8rem;
+    width: 27rem;
+}
+.hero_image_back{
+    position: absolute;
+    top: 4rem;
+    z-index: -1;
+    right: 20rem;
+    width: 20rem;
+}
+.calories{
+    display: flex;
+    padding: 1rem;
+    background-color: var(--caloryCard);
+    border-radius: 5px;
+    gap: 2rem;
+    width: fit-content;
+    position: absolute;
+    top: 32rem;
+    right: 28rem;
+}
+.calories>img{
+    width: 3rem;
+}
+.calories>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.calories>div>:nth-child(1){
+    color: var(--gray);
+}
+.calories>div>:nth-child(2){
+    color: white;
+    font-size: 1.5rem;
+}
